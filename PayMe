@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pay Me</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            position: relative;
+            overflow: hidden;
+        }
+        .background-gif {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+        h1 {
+            font-size: 3rem;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            margin-bottom: 20px;
+            z-index: 1;
+        }
+        .payment-container {
+            display: flex;
+            gap: 15px;
+            z-index: 1;
+        }
+        .pay-button {
+            background-color: #006aff;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 1.5rem;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.2s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        .pay-button:hover {
+            background-color: #004ecc;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="https://media.giphy.com/media/3o7TKSjRrfIPjeiVyM/giphy.gif" alt="Falling money background" class="background-gif">
+
+    <h1>Pay me</h1>
+
+    <div class="payment-container">
+        <a href="https://square.link/u/X2VlcvWa" target="_blank" class="pay-button">💵</a>
+    </div>
+
+</body>
+</html>
